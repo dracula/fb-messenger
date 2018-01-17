@@ -1,0 +1,338 @@
+/*
+ * Dracula colors
+ */
+
+ $darkgray: #1E2124;
+ $white: #ADAEB0;
+ $lightgray: #36393E;
+ $accent: #233276;
+
+ $background: #282a36;
+ $current: #44475a;
+ $selection: #44475a;
+ $foreground: #f8f8f2;
+ $comment: #6272a4;
+ $cyan: #8be9fd;
+ $green: #50fa7b;
+ $orange: #ffb86c;
+ $pink: #ff79c6;
+ $purple: #bd93f9;
+ $red: #ff5555;
+ $yellow: #f1fa8c;
+
+/* Sections will be from left to right, top-bottom. */
+
+/* Weird classes*/
+
+time._3oh- {
+  color: $white !important;
+}
+
+/* Change nickname modal */ 
+._4eby {
+  background: grey !important;
+}
+
+/* Lower section of nickname modal*/
+._29hl ._5l37 {
+  background: gray !important;
+}
+
+/*Edit your nickname input bg*/
+._5iwm ._58al{
+  background: darkgray !important;
+}
+
+._23ct {
+  filter: invert(100%);
+}
+
+/* Link description bg color */
+._2ph_{
+  background-color: $accent !important;
+}
+
+/* Youtube Link description bg color */
+._5swm {
+  background-color: #C3C9D1 !important;
+}
+
+/* Sidepanel border left */
+._4_j5{
+  border-left: 1px solid #5A6364 !important;
+}
+
+/* Link description text */
+._5rw4{
+  color: darken($white, 15) !important;
+}
+
+/* Messenger Header Bar*/
+._36ic {
+  background-color: $darkgray !important;
+  color: $white !important;
+}
+
+/* Messenger header bar border bottom I think */
+
+/* Person's Bar */
+._5742{
+  background-color: $darkgray !important;
+  border-bottom: 1px solid #989C9F !important;
+}
+
+/* Timestamp */
+._1ht7 {
+  color: darken($white, 15) !important;
+}
+
+abbr._1ht7 {
+  color: $white !important;
+}
+
+/* Person's Name */
+._17w2 ._3oh-{
+  background-color: $darkgray !important;
+  color: $white !important;
+}
+
+/* "Facebook Profile" Link */
+a._3oh-{
+  color: $white !important;
+}
+
+span._3oh- {
+  color: lighten($white, 15) !important;
+}
+
+/* "Active On Messenger" */
+._2v6o{
+  color: $white !important;
+}
+
+/* Search Bar (background) */
+._5iwm{
+  background-color: $darkgray !important;
+}
+ ._58al._5iwm {
+  background-color: gray !important;
+ }
+/* Inner Search Bar */
+._58ak{
+  background-color: $darkgray !important;
+}
+
+/* Search Bar Placeholder Text */
+._58al::placeholder{
+  color: $white !important;
+}
+
+/* CONVERSATIONS */
+
+/* General Conversation Item */
+
+._1ht1{
+  background-color: $darkgray !important;
+}
+
+/* Current Conversation Item*/
+._1ht2{
+  background-color: $darkgray !important;
+}
+
+/* New Message Conversation alert */
+._1ht3, ._1ht3._1ht1{
+  background-color: #002F4C !important;
+}
+
+/* Other Conversations */
+._569x {
+  background-color: $darkgray !important;
+}
+
+/* Current Conversation Photo */
+/*_5l-3*/
+
+// New Message Photo Profile photo
+._5l-3._1ht1._1ht2 ._1qt3._5l-3:not(._55lt) {
+  // filter: invert(100%);
+}
+
+/* Current Conversation Name */
+._1ht6{
+  color: $white !important;
+}
+
+/* Current Conversation  */
+._17w2 {
+  background-color: $darkgray !important;
+}
+
+/* Current Conversation: Message Preview */
+._1htf{
+  color: gray !important;
+}
+
+/* MAIN MESSAGING SECTION */
+
+/* New Messaging Person's Name */ 
+._llq span._3oh-{
+  color: $white !important;
+}
+
+._36zg, ._1n-e{
+  color: $white !important;  
+}
+
+// Group convo: user's name
+._ih3 {
+  color: $white;
+}
+
+// Attachment unavailable: bubble
+._5i_d {
+  border: 1px solid $accent;
+  background-color: transparent !important;
+  // Attachment Unavailable
+  .__6k {
+    color: $white !important;
+  }
+  .__6l {
+    color: $white !important;
+  }
+}
+
+// Emojis in main messaging section
+._1ifu {
+  padding: 10px;
+}
+
+// Emojis inside the emoji menu
+._5f0v._4pia ._1ifu {
+  padding: 0 !important;
+}
+
+/* BG */
+._4_j4{
+  background-color: $darkgray !important;
+}
+
+/* WRITE NEW MESSAGE */
+
+/* Enter New Message BG */
+._4rv3{
+  background-color: $darkgray !important;
+}
+
+// Write a new message to a person
+._2y8y._5l-3 {
+  background: $darkgray !important;
+  ._2y8z {
+    color: $white !important;
+  }
+  ._58al {
+    color: $white !important;
+    background-color: $darkgray;
+  }
+}
+
+// Icon that use PNGs
+
+._4rv6 {
+  filter: invert(100%);
+}
+
+a._4ce_ {
+  filter: invert(100%);
+}
+
+/* Enter New Msg PlaceHolder Text */
+._5rpu{
+  color: $white !important;
+}
+
+/* SIDE PANEL */
+/* BG */
+._4_j5{
+  background-color: $darkgray !important;
+}
+
+/* Top section: Name; */
+._3eur ._3oh-{
+  color: $white !important; 
+}
+
+/* Group name */
+._2jnv{
+  color: $white !important;
+}
+
+/* Top section: Last active status */
+._3eus{
+  color: $white !important;
+}
+
+/* Mute Notifications */
+._3x6u, ._3szq{
+  color: #A8ADB0 !important;
+}
+
+/* People, Add People */
+._1lj0, ._4rph ._4rpj {
+  color: $white !important;
+}
+
+/* People BG */
+._5l37{
+  background-color: $darkgray !important;
+}
+
+/* People border-top */
+
+._5l38{
+  border-top: 1px solid darken($white, 15) !important;
+}
+
+/* People text */
+._364g {
+  color: $white !important;
+}
+
+/* Message White BG */
+._29_7 ._hh7 {
+  background-color: $lightgray;
+}
+
+/* Message from me BG */
+._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
+  background-color: $accent !important;
+}
+
+/* Smiley */
+._583a {
+  background-color: none !important;
+}
+
+/* Mute Status */
+._3x6v{
+  color: #4F64FF !important;
+}
+
+/* "Facebook Profile" & "Shared Photos" Labels */
+._3tl0{
+  color: $white !important;
+}
+
+/* Facebook Profile: LINK */
+._3oh-{
+  color: $darkgray !important;
+}
+
+// Dropdown search menu
+._29hl div.clearfix{
+  color: $darkgray !important;
+  &:hover {
+    background-color: $accent !important;
+    color: $white !important;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dracula Messenger",
+  "description": "Change the appearance of messenger.com to look like your favourite theme.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "dracula.png",
+    "default_title": "Dracula Messenger Theme"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.messenger.com/","https://www.messenger.com/t/*"],
+      "js": [
+        "driver.js"
+      ]
+    }
+  ],
+  "web_accessible_ressources": [
+    "dracula.css"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}
