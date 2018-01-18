@@ -3,10 +3,14 @@
 
   "name": "Dracula Messenger",
   "description": "Change the appearance of messenger.com to look like your favourite theme.",
-  "version": "1.0",
-
+  "version": "0.1",
+  "icons": {
+    "16":"dracula16.PNG",
+    "48":"dracula48.PNG",
+    "128":"dracula128.PNG"
+  },
   "browser_action": {
-    "default_icon": "dracula.png",
+    "default_icon": "dracula16.png",
     "default_title": "Dracula Messenger Theme"
   },
   "permissions": [
@@ -21,7 +25,7 @@
       ]
     }
   ],
-  "web_accessible_ressources": [
+  "web_accessible_resources": [
     "dracula.css"
   ],
   "background": {

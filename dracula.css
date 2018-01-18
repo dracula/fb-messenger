@@ -1,0 +1,322 @@
+/*
+ * Dracula colors
+ */
+/* Sections will be from left to right, top-bottom. */
+/* Weird classes*/
+time._3oh- {
+    color: #ADAEB0 !important;
+}
+  
+  /* Change nickname modal */
+  ._4eby {
+    background: grey !important;
+  }
+  
+  /*Edit your nickname input bg*/
+  ._5iwm ._58al {
+    background: darkgray !important;
+  }
+  
+  ._23ct {
+    filter: invert(100%);
+  }
+  
+  /* Link description bg color */
+  ._2ph_ {
+    background-color: #233276 !important;
+  }
+  
+  /* Youtube Link description bg color */
+  ._5swm {
+    background-color: #C3C9D1 !important;
+  }
+  
+  /* Sidepanel border left */
+  /* ._4_j5 {
+    border-left: 1px solid #5A6364 !important;
+  } */
+  
+  /* Link description text */
+  ._5rw4 {
+    color: #86888a !important;
+  }
+  
+  /* Messenger Header Bar*/
+  ._36ic {
+    background-color: #1E2124 !important;
+    color: #ADAEB0 !important;
+  }
+  
+  /* Messenger header bar border bottom I think */
+  /* Person's Bar */
+  ._5742 {
+    background-color: #1E2124 !important;
+    /* border-bottom: 1px solid #989C9F !important; */
+  }
+  
+  /* Timestamp */
+  ._1ht7 {
+    color: #86888a !important;
+  }
+  
+  abbr._1ht7 {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Person's Name */
+  ._17w2 ._3oh- {
+    background-color: #1E2124 !important;
+    color: #ADAEB0 !important;
+  }
+  
+  /* "Facebook Profile" Link */
+  a._3oh- {
+    color: #ADAEB0 !important;
+  }
+  
+  span._3oh- {
+    color: #d4d4d6 !important;
+  }
+  
+  /* "Active On Messenger" */
+  ._2v6o {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Search Bar (background) */
+  ._5iwm {
+    background-color: #1E2124 !important;
+  }
+  
+  ._58al._5iwm {
+    background-color: #36393E !important;
+  }
+  
+  /* Inner Search Bar */
+  ._58ak {
+    background-color: #1E2124 !important;
+  }
+  
+  /* Search Bar Placeholder Text */
+  ._58al::placeholder {
+    color: #ADAEB0 !important;
+  }
+  
+  /* CONVERSATIONS */
+  /* General Conversation Item */
+  ._1ht1 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* Current Conversation Item*/
+  ._1ht2 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* New Message Conversation alert */
+  ._1ht3, ._1ht3._1ht1 {
+    background-color: #002F4C !important;
+  }
+  
+  /* Other Conversations */
+  ._569x {
+    background-color: #1E2124 !important;
+  }
+  
+  /* Loading new conversations */
+  ._19hf {
+    background-color: #1E2124 !important;
+  }
+
+  /* contacts under search messenger input bar */
+  ._225b {
+    color: #ADAEB0 !important;
+  }
+
+  /* Search messenger input bar */
+  ._58al {
+    background: #36393E !important;
+  }
+
+  input::placeholder {
+    color: #1E2124 !important;
+  }
+
+  ._29hl, ._5l37 {
+    background: #1E2124 !important
+  }
+
+  /* Current Conversation Photo */
+  /*_5l-3*/
+  /* Current Conversation Name */
+  ._1ht6 {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Current Conversation  */
+  ._17w2 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* Current Conversation: Message Preview */
+  ._1htf {
+    color: gray !important;
+  }
+  
+  /* MAIN MESSAGING SECTION */
+  /* New Messaging Person's Name */
+  ._llq span._3oh- {
+    color: #ADAEB0 !important;
+  }
+  
+  ._36zg, ._1n-e {
+    color: #ADAEB0 !important;
+  }
+  
+  ._ih3 {
+    color: #ADAEB0;
+  }
+  
+  ._5i_d {
+    /* border: 1px solid #233276; */
+    /* background-color: transparent !important; */
+  }
+  ._5i_d .__6k {
+    color: #ADAEB0 !important;
+  }
+  ._5i_d .__6l {
+    color: #ADAEB0 !important;
+  }
+  
+  ._1ifu {
+    padding: 10px;
+  }
+  
+  ._5f0v._4pia ._1ifu {
+    padding: 0 !important;
+  }
+  
+  /* BG */
+  ._4_j4 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* WRITE NEW MESSAGE */
+  /* Enter New Message BG */
+  ._4rv3 {
+    background-color: #1E2124 !important;
+  }
+  
+  ._2y8y._5l-3 {
+    background: #1E2124 !important;
+  }
+  ._2y8y._5l-3 ._2y8z {
+    color: #ADAEB0 !important;
+  }
+  ._2y8y._5l-3 ._58al {
+    color: #ADAEB0 !important;
+    background-color: #1E2124;
+  }
+  
+  ._4rv6 {
+    filter: invert(100%);
+  }
+  
+  a._4ce_ {
+    filter: invert(100%);
+  }
+  
+  /* Enter New Msg PlaceHolder Text */
+  ._5rpu {
+    color: #ADAEB0 !important;
+  }
+
+  /* left border of current conversation */
+  ._1q5- {
+    border-left: 1px solid #44475a; 
+  }
+  
+  /* SIDE PANEL */
+  /* BG */
+  ._4_j5 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* Top section: Name; */
+  ._3eur ._3oh- {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Group name */
+  ._2jnv {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Top section: Last active status */
+  ._3eus {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Mute Notifications */
+  ._3x6u, ._3szq {
+    color: #A8ADB0 !important;
+  }
+  
+  /* People, Add People */
+  ._1lj0, ._4rph ._4rpj {
+    color: #ADAEB0 !important;
+  }
+  
+  /* People BG */
+  ._5l37 {
+    background-color: #1E2124 !important;
+  }
+  
+  /* People border-top */
+  ._5l38 {
+    /* border-top: 1px solid #86888a !important; */
+  }
+  
+  /* People text */
+  ._364g {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Message White BG */
+  ._29_7 ._hh7 {
+    background-color: #36393E;
+  }
+  
+  /* Message from me BG */
+  ._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
+    background-color: #233276 !important;
+  }
+  
+  /* Smiley */
+  ._583a {
+    background-color: none !important;
+  }
+  
+  /* Mute Status */
+  ._3x6v {
+    color: #4F64FF !important;
+  }
+  
+  /* "Facebook Profile" & "Shared Photos" Labels */
+  ._3tl0 {
+    color: #ADAEB0 !important;
+  }
+  
+  /* Facebook Profile: LINK */
+  ._3oh- {
+    color: #1E2124 !important;
+  }
+  
+  ._29hl div.clearfix {
+    color: #1E2124 !important;
+  }
+  ._29hl div.clearfix:hover {
+    background-color: #233276 !important;
+    color: #ADAEB0 !important;
+  }
+  

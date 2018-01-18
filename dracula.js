@@ -20,4 +20,5 @@ if (document.getElementById('draculaMessenger')){
     chrome.storage.sync.set({ activated : true }, function(){
       console.log("Activated");
     });   
-	console.log("Dracula theme activated.");
+    console.log("Dracula theme activated.");
+}
