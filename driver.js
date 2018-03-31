@@ -2,16 +2,17 @@
 
 chrome.storage.sync.get("activated", function(obj){
   let initialToggleState;
-  console.log("Initial check.");
+  //TODO: remove
+  console.log("Hello developper! Check out the repo at https://github.com/ppartarr/dracula-messenger")
   initialToggleState = obj.activated;
 
   if (initialToggleState) { 
-    let a     = chrome.extension.getURL("nightmode.css"),
+    let a     = chrome.extension.getURL("src/css/dracula.css"),
         link  = document.createElement('link');
 
     link.type = 'text/css';
     link.rel = 'stylesheet';
-    link.id = "nightMessenger";
+    link.id = "draculaMessenger";
     link.href = a;
 
     document.head.appendChild(link);

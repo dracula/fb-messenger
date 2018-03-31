@@ -1,0 +1,69 @@
+/**************************************************/
+/******************* HEADER BAR *******************/
+/**************************************************/
+/* Messenger Header Bar*/
+._36ic {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important; }
+
+/**************************************************/
+/**************** CONVERSATIONS *******************/
+/**************************************************/
+/* General Conversation Item */
+._1ht1 {
+  background-color: #282a36 !important; }
+  ._1ht1:hover {
+    background-color: #44475a !important; }
+
+/* Current Conversation: Item*/
+._1ht2 {
+  background-color: #44475a !important; }
+
+/* Current Conversation: Text */
+._1htf {
+  color: #f8f8f2 !important; }
+
+/* Current Conversation: Name */
+._1ht6 {
+  color: #ADAEB0 !important; }
+
+/* Current Conversation  */
+._17w2 {
+  background-color: #282a36 !important; }
+
+/* Timestamp */
+._1ht7 {
+  color: #ddddc0 !important; }
+
+abbr._1ht7 {
+  color: #f8f8f2 !important; }
+
+/**************************************************/
+/************** SEARCH CONVERSATIONS **************/
+/**************************************************/
+/* Search bar placeholder text */
+._58al::placeholder {
+  color: #f8f8f2 !important; }
+
+/* Friend list: item */
+._5l37 {
+  background-color: #282a36 !important; }
+
+/* Friend list: name */
+._5l38 ._5l39 {
+  background-color: #282a36 !important; }
+  ._5l38 ._5l39:hover {
+    background-color: #44475a !important; }
+
+/* Friend list: icon */
+._29hl {
+  color: #282a36 !important; }
+  ._29hl:hover {
+    background-color: #44475a !important; }
+
+/* Contacts: Text */
+._225b {
+  background-color: #6272a4;
+  color: #f8f8f2; }
+
+/*# sourceMappingURL=conversations.css.map */

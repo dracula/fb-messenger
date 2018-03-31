@@ -1,0 +1,85 @@
+/**************************************************/
+/******************* HEADER BAR *******************/
+/**************************************************/
+/* Active on messenger */
+._2v6o {
+  color: #f8f8f2 !important; }
+
+/* Friend Name */
+._17w2 {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important; }
+
+/**************************************************/
+/****************** MESSAGES **********************/
+/**************************************************/
+/* Message color */
+span._3oh- {
+  color: white !important; }
+
+/* Persone Name Header */
+div._673w {
+  background-color: #282a36; }
+
+/* Message background from friend*/
+._29_7 ._hh7 {
+  background-color: #36393E; }
+
+/* Message background from me */
+._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
+  background-color: #44475a !important; }
+
+/* New Messaging Person's Name */
+._llq span._3oh- {
+  color: #f8f8f2 !important; }
+
+._36zg, ._1n-e {
+  color: #f8f8f2 !important; }
+
+._ih3 {
+  color: #f8f8f2; }
+
+._5i_d {
+  border: 1px solid #44475a;
+  background-color: transparent !important; }
+  ._5i_d .__6k {
+    color: #f8f8f2 !important; }
+  ._5i_d .__6l {
+    color: #f8f8f2 !important; }
+
+._1ifu {
+  padding: 10px; }
+
+._5f0v._4pia ._1ifu {
+  padding: 0 !important; }
+
+/* BG */
+._4_j4 {
+  background-color: #282a36 !important; }
+
+/**************************************************/
+/**************** WRITE NEW MESSAGE ***************/
+/**************************************************/
+/* Enter New Message BG */
+._4rv3 {
+  background-color: #282a36 !important; }
+
+._2y8y._5l-3 {
+  background: #282a36 !important; }
+  ._2y8y._5l-3 ._2y8z {
+    color: #f8f8f2 !important; }
+  ._2y8y._5l-3 ._58al {
+    color: #f8f8f2 !important;
+    background-color: #282a36; }
+
+._4rv6 {
+  filter: invert(100%); }
+
+a._4ce_ {
+  filter: invert(100%); }
+
+/* Enter New Msg PlaceHolder Text */
+._5rpu {
+  color: #f8f8f2 !important; }
+
+/*# sourceMappingURL=messaging.css.map */

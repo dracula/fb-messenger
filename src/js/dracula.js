@@ -1,7 +1,7 @@
 "use strict";
 
 var createStylesheetElement = function(){
-	let a    = chrome.extension.getURL("dracula.css"),
+	let a    = chrome.extension.getURL("src/css/dracula.css"),
         link = document.createElement('link');
 
 	link.type = 'text/css';
@@ -15,8 +15,8 @@ var createStylesheetElement = function(){
 if (document.getElementById('draculaMessenger')){
 	console.log("Already exists.");	
 } else {
-	let nightMessengerStylesheet = createStylesheetElement();
-	document.head.appendChild(nightMessengerStylesheet);
+	let draculaStylesheet = createStylesheetElement();
+	document.head.appendChild(draculaStylesheet);
     chrome.storage.sync.set({ activated : true }, function(){
       console.log("Activated");
     });   
