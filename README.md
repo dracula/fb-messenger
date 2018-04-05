@@ -14,13 +14,13 @@ Toggle **developer mode** and click on **load unpacked**.
 
 # Contributing
 
-Feel free to help me develop this extension by submitting pull requests!
+Feel free to help me develop this extension by submitting pull requests! You can view a list of contributors [here](https://github.com/ppartarr/dracula-messenger/graphs/contributors)
 
 # Questions
 
-If you have an problems getting something to work please email me at philippe@partarrieu.me or file a [Github Issue](https://github.com/ppartarr/dracula-messenger/issues)
+If you have an problems getting something to work please email me at <philippe@partarrieu.me> or file a [Github Issue](https://github.com/ppartarr/dracula-messenger/issues)
 
 # License
 
-This theme is free and open source software, distributed under the The MIT License.
+This extension is free and open source software, distributed under the The MIT License.
 
