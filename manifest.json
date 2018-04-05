@@ -7,9 +7,9 @@
   "homepage_url": "https://github.com/ppartarr/dracula-messenger/",
 
   "icons": {
-    "16":"src/img/dracula16.PNG",
-    "48":"src/img/dracula48.PNG",
-    "128":"src/img/dracula128.PNG"
+    "16":"src/img/dracula16.png",
+    "48":"src/img/dracula48.png",
+    "128":"src/img/dracula128.png"
   },
   "browser_action": {
     "default_icon": "src/img/dracula16.png",
