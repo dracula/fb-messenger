@@ -13,9 +13,13 @@
 /**************************************************/
 /****************** MESSAGES **********************/
 /**************************************************/
+/* Links, website URL in link preview */
+a.__6m {
+  color: #f8f8f2 !important; }
+
 /* Message color */
 span._3oh- {
-  color: white !important; }
+  color: #f8f8f2 !important; }
 
 /* Persone Name Header */
 div._673w {
@@ -30,7 +34,7 @@ div._673w {
   background-color: #44475a !important; }
 
 /* New Messaging Person's Name */
-._llq span._3oh- {
+._llq {
   color: #f8f8f2 !important; }
 
 ._36zg, ._1n-e {
@@ -47,15 +51,21 @@ div._673w {
   ._5i_d .__6l {
     color: #f8f8f2 !important; }
 
+/* Emojis in main messaging section */
 ._1ifu {
   padding: 10px; }
 
+/* Emojis inside the emoji menu */
 ._5f0v._4pia ._1ifu {
   padding: 0 !important; }
 
 /* BG */
 ._4_j4 {
   background-color: #282a36 !important; }
+
+/* Friend has called you text */
+img, ._50f7 {
+  color: #8be9fd; }
 
 /**************************************************/
 /**************** WRITE NEW MESSAGE ***************/

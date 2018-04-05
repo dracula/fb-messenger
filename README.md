@@ -1,7 +1,9 @@
-# Dracula Theme for messenger
-**This is a chrome extension that applies the dracula theme to messenger.com**
+# Dracula for Facebook Messenger
+> A chrome extension dark theme for [Facebook Messenger](https://www.messenger.com/)
 
-## Running the extension locally
+![](https://github.com/ppartarr/dracula-messenger/blob/master/src/img/screenshot.png)
+
+## Install
 
 To run this project you will need:
 * [Ruby](https://www.ruby-lang.org/en/downloads/)
@@ -10,7 +12,14 @@ To run this project you will need:
 Open up your chrome browser and enter [chrome://extensions](chrome://extensions) into the address bar , or click on settings, more tools, extensions.
 Toggle **developer mode** and click on **load unpacked**.
 
-*Note: Make sure you `watch` the `src/sass/` directory during development
+*Note: Make sure you `watch` the `src/sass/` directory during development. The syntax of the command to do this will depend on which sass you have installed.*
+
+# Team
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/template/graphs/contributors).
+
+[![Philippe Partarrrieu](https://avatars0.githubusercontent.com/u/16687219?v=3&s=70)](https://github.com/mikebarkmin) |
+---|
+[Philippe Partarrieu](https://github.com/ppartarr) |
 
 # Contributing
 

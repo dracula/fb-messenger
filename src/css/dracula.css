@@ -81,9 +81,13 @@ abbr._1ht7 {
 /**************************************************/
 /****************** MESSAGES **********************/
 /**************************************************/
+/* Links, website URL in link preview */
+a.__6m {
+  color: #f8f8f2 !important; }
+
 /* Message color */
 span._3oh- {
-  color: white !important; }
+  color: #f8f8f2 !important; }
 
 /* Persone Name Header */
 div._673w {
@@ -98,7 +102,7 @@ div._673w {
   background-color: #44475a !important; }
 
 /* New Messaging Person's Name */
-._llq span._3oh- {
+._llq {
   color: #f8f8f2 !important; }
 
 ._36zg, ._1n-e {
@@ -115,15 +119,21 @@ div._673w {
   ._5i_d .__6l {
     color: #f8f8f2 !important; }
 
+/* Emojis in main messaging section */
 ._1ifu {
   padding: 10px; }
 
+/* Emojis inside the emoji menu */
 ._5f0v._4pia ._1ifu {
   padding: 0 !important; }
 
 /* BG */
 ._4_j4 {
   background-color: #282a36 !important; }
+
+/* Friend has called you text */
+img, ._50f7 {
+  color: #8be9fd; }
 
 /**************************************************/
 /**************** WRITE NEW MESSAGE ***************/
@@ -155,7 +165,7 @@ a._4ce_ {
   background-color: #282a36 !important; }
 
 /* Top section: Name  */
-._3eur ._3oh- {
+._3eur {
   color: #f8f8f2 !important; }
 
 /* Group name */
@@ -204,6 +214,11 @@ a._4ce_ {
   color: #f8f8f2 !important; }
 
 /* Edit nicknames */
+._4t2a {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border-radius: 0; }
+
 ._4eby, ._2c9i, ._4ebz, ._19jt {
   background-color: #282a36 !important;
   color: #f8f8f2 !important; }
@@ -213,7 +228,7 @@ a._4ce_ {
   color: #f8f8f2 !important; }
 
 /* Edit nicknames: input */
-._5j5f, _3oh- {
+._5j5f {
   background-color: #6272a4; }
 
 /* Converstation notifications */
@@ -223,12 +238,6 @@ a._4ce_ {
 /*Edit your nickname input bg*/
 ._5iwm ._58al {
   background: #6272a4 !important; }
-
-/**************************************************/
-/************* FACEBOOK PROFILE LINK **************/
-/**************************************************/
-._3oh- {
-  color: #6272a4 !important; }
 
 /* Sections will be from left to right, top-bottom. */
 /* Container */
@@ -241,9 +250,5 @@ time._3oh- {
 
 ._23ct {
   filter: invert(100%); }
-
-/* Sidepanel border left */
-._4_j5 {
-  border-left: 1px solid #5A6364 !important; }
 
 /*# sourceMappingURL=dracula.css.map */
