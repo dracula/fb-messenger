@@ -3,7 +3,7 @@
 chrome.storage.sync.get("activated", function(obj){
   let initialToggleState;
   //TODO: remove
-  console.log("Hello developper! Check out the repo at https://github.com/ppartarr/dracula-messenger")
+  console.log("Hello developper! Check out the repo at https://github.com/dracula/fb-messenger")
   initialToggleState = obj.activated;
 
   if (initialToggleState) { 
