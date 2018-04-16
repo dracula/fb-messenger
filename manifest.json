@@ -2,9 +2,9 @@
   "name": "Dracula Theme for Messenger",
   "short_name": "Dark Messenger",
   "description": "Change the appearance of Messenger to look like your favourite theme: dracula",
-  "version": "0.4",
+  "version": "0.5",
   "author": "Philippe Partarrieu",
-  "homepage_url": "https://github.com/ppartarr/dracula-messenger/",
+  "homepage_url": "https://github.com/dracula/fb-messenger",
 
   "icons": {
     "16":"src/img/dracula16.png",
