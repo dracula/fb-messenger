@@ -19,7 +19,7 @@ Toggle **developer mode** and click on **load unpacked**.
 ## Team
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/fb-messenger/graphs/contributors).
 
-[![Philippe Partarrrieu](https://avatars0.githubusercontent.com/u/16687219?v=3&s=70)](https://github.com/mikebarkmin) |
+[![Philippe Partarrrieu](https://avatars0.githubusercontent.com/u/16687219?v=3&s=70)](https://github.com/ppartarr) |
 ---|
 [Philippe Partarrieu](https://github.com/ppartarr) |
 
