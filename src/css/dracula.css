@@ -106,9 +106,14 @@ abbr._1ht7 {
 ._58nk {
   color: #f8f8f2; }
 
+/* Date & time on message hover */
 .tooltipText, .tooltipContent {
-  background-color: #0084ff !important;
-  color: #50fa7b !important; }
+  background-color: #6272a4 !important;
+  color: #f8f8f2 !important; }
+
+i.arrow {
+  border-left-color: #6272a4 !important;
+  border-right-color: #6272a4 !important; }
 
 /* Persone Name Header */
 div._673w {
@@ -158,10 +163,6 @@ div._673w {
 /* Friend has called you text */
 img, ._50f7 {
   color: #0084ff; }
-
-/* Message hover date */
-[aria-describedby] {
-  color: #6272a4 !important; }
 
 /************************************************* */
 /**************** WRITE NEW MESSAGE ************** */
@@ -214,7 +215,7 @@ a._4ce_ {
 
 /* People text */
 ._364g {
-  color: #f8f8f2 !important; }
+  color: #0084ff !important; }
 
 /* Smiley */
 ._583a {
