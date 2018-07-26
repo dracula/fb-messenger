@@ -1,38 +1,23 @@
 @import colors
-    
-
-a
-  color: $foreground
 
 /* BG */
 ._4_j5 
   background-color: $background !important 
  
-
 /* Top section: Name  */
 ._3eur
-  color: $foreground !important  
+  span
+    span 
+      a
+        color: $messengerblue !important  
  
-
 /* Group name */
 ._2jnv 
   color: $foreground !important 
  
-
-/* Top section: Last active status */
+/* Last active time */
 ._3eus 
-  color: $foreground !important 
- 
-
-/* Mute Notifications */
-._3x6u, ._3szq 
-  color: $foreground !important 
- 
-
-/* People, Add People */
-._1lj0, ._4rph ._4rpj  
-  color: $foreground !important 
- 
+  color: $comment !important 
 
 /* People BG */
 ._5l37 
@@ -57,23 +42,38 @@ a
 ._33p7
   background-color: $background
 
-/**************************************************/
-/****************** OPTIONS ***********************/
-/**************************************************/
-
 /* Search in conversation */
 ._1li_
   color: $foreground !important
 
-/* Edit nicknames */
+/**************************************************/
+/****************** OPTIONS ***********************/
+/**************************************************/
+
+/* Options, shared files & shared photos */
+._1lj0, ._4rph ._4rpj  
+  color: $comment !important 
+ 
+/* Text next to icons */
+._3x6u, ._3szq 
+  color: $purple !important 
+
+/**************************************************/
+/***************** EDIT NICKNAMES *****************/
+/**************************************************/
 ._4t2a
   background-color: $background !important 
   color: $foreground !important
   border-radius: 0
 
+/**************************************************/
+/****************** CHANGE COLOUR *****************/
+/**************************************************/
+
+/* Modal header */
 ._4eby, ._2c9i, ._4ebz, ._19jt
   background-color: $background !important 
-  color: $foreground !important
+  color: $messengerblue !important
 
 /* Edit nicknames: nicknames, names */
 ._3q34, ._3q35
@@ -83,12 +83,41 @@ a
 ._5j5f
     background-color: $comment
 
-/* Converstation notifications */
-._374c 
-    color: $foreground
-
-
 /*Edit your nickname input bg*/
 ._5iwm ._58al 
-  background: $comment !important 
+  background: $currentline !important 
+
+
+/**************************************************/
+/****************** CHANGE EMOJI ******************/
+/**************************************************/
+
+/* Selected emoji background */
+._-lj ._4rlt
+  background-color: $pink
+  border-color: $pink
+
+
+/**************************************************/
+/****************** NOTIFICATIONS *****************/
+/**************************************************/
+
+/* Modal header */
+._19jt
+  color: $messengerblue !important
+
+/* Row title */
+._374c 
+    color: $comment
+
+/* Row text */
+._4ng2
+  color: $messengerblue
+
+/**************************************************/
+/**************** SHARED FILES ********************/
+/**************************************************/
  
+/* Links */
+._fy2
+  color: $purple !important

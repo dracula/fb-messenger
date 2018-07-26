@@ -2,33 +2,29 @@
 /******************* HEADER BAR ****************** */
 /************************************************* */
 /* Messenger Header Bar */
-._36ic {
-  background-color: #282a36 !important;
-  color: #f8f8f2 !important; }
-
 ._1tqi {
-  color: #f8f8f2; }
+  color: #0084ff; }
 
 /************************************************* */
 /**************** CONVERSATIONS ****************** */
 /************************************************* */
-/* General Conversation Item */
+/* General conversation: item */
 ._1ht1 {
   background-color: #282a36 !important; }
   ._1ht1:hover {
     background-color: #44475a !important; }
 
-/* Current Conversation: Item */
+/* Current conversation: item */
 ._1ht2 {
   background-color: #44475a !important; }
 
-/* Current Conversation: Text */
+/* Friend or group name in text */
 ._1htf {
-  color: #f8f8f2 !important; }
+  color: #8be9fd !important; }
 
-/* Current Conversation: Name */
+/* Current conversation: friend or group name */
 ._1ht6 {
-  color: #ADAEB0 !important; }
+  color: #0084ff !important; }
 
 /* Current Conversation  */
 ._17w2 {
@@ -39,14 +35,14 @@
   color: #ddddc0 !important; }
 
 abbr._1ht7 {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /************************************************* */
 /************** SEARCH CONVERSATIONS ************* */
 /************************************************* */
 /* Search bar placeholder text */
 ._58al::placeholder {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /* Friend list: item */
 ._5l37 {
@@ -72,14 +68,14 @@ abbr._1ht7 {
 /************************************************* */
 /******************* HEADER BAR ****************** */
 /************************************************* */
-/* Active on messenger */
+/* Last active time */
 ._2v6o {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
-/* Friend Name */
+/* Friend or group name */
 ._17w2 {
   background-color: #282a36 !important;
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /************************************************* */
 /******************* MENUS *********************** */
@@ -94,13 +90,25 @@ abbr._1ht7 {
 /************************************************* */
 /****************** MESSAGES ********************* */
 /************************************************* */
+/* Time & date */
+._497p ._3oh- {
+  color: #6272a4 !important; }
+
 /* Links, website URL in link preview */
 .__6m {
   color: #bd93f9 !important; }
 
+/* Friend's name above conversation */
+._6f6l {
+  color: #0084ff !important; }
+
 /* Message color */
-span._3oh- {
-  color: #f8f8f2 !important; }
+._58nk {
+  color: #f8f8f2; }
+
+.tooltipText, .tooltipContent {
+  background-color: #0084ff !important;
+  color: #50fa7b !important; }
 
 /* Persone Name Header */
 div._673w {
@@ -108,7 +116,7 @@ div._673w {
 
 /* Message background from friend */
 ._29_7 ._hh7 {
-  background-color: #36393E; }
+  background-color: #6272a4; }
 
 ._29_7 ._hh7._2f5r {
   background: none; }
@@ -121,7 +129,6 @@ div._673w {
   background: none !important; }
 
 /* New Messaging Person's Name */
-
 ._llq {
   color: #f8f8f2 !important; }
 
@@ -150,7 +157,11 @@ div._673w {
 
 /* Friend has called you text */
 img, ._50f7 {
-  color: #8be9fd; }
+  color: #0084ff; }
+
+/* Message hover date */
+[aria-describedby] {
+  color: #6272a4 !important; }
 
 /************************************************* */
 /**************** WRITE NEW MESSAGE ************** */
@@ -158,6 +169,10 @@ img, ._50f7 {
 /* Enter New Message BG */
 ._4rv3 {
   background-color: #282a36 !important; }
+
+/* Text */
+._5rp8 ._1mf {
+  color: #f8f8f2 !important; }
 
 ._2y8y._5l-3 {
   background: #282a36 !important; }
@@ -174,35 +189,24 @@ a._4ce_ {
   filter: invert(100%); }
 
 /* Enter New Msg PlaceHolder Text */
-._5rpu {
-  color: #f8f8f2 !important; }
-
-a {
-  color: #f8f8f2; }
+._1p1v {
+  color: #6272a4 !important; }
 
 /* BG */
 ._4_j5 {
   background-color: #282a36 !important; }
 
 /* Top section: Name  */
-._3eur {
-  color: #f8f8f2 !important; }
+._3eur span span a {
+  color: #0084ff !important; }
 
 /* Group name */
 ._2jnv {
   color: #f8f8f2 !important; }
 
-/* Top section: Last active status */
+/* Last active time */
 ._3eus {
-  color: #f8f8f2 !important; }
-
-/* Mute Notifications */
-._3x6u, ._3szq {
-  color: #f8f8f2 !important; }
-
-/* People, Add People */
-._1lj0, ._4rph ._4rpj {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /* People BG */
 ._5l37 {
@@ -226,22 +230,36 @@ a {
 ._33p7 {
   background-color: #282a36; }
 
-/************************************************* */
-/****************** OPTIONS ********************** */
-/************************************************* */
 /* Search in conversation */
 ._1li_ {
   color: #f8f8f2 !important; }
 
-/* Edit nicknames */
+/************************************************* */
+/****************** OPTIONS ********************** */
+/************************************************* */
+/* Options, shared files & shared photos */
+._1lj0, ._4rph ._4rpj {
+  color: #6272a4 !important; }
+
+/* Text next to icons */
+._3x6u, ._3szq {
+  color: #bd93f9 !important; }
+
+/************************************************* */
+/***************** EDIT NICKNAMES **************** */
+/************************************************* */
 ._4t2a {
   background-color: #282a36 !important;
   color: #f8f8f2 !important;
   border-radius: 0; }
 
+/************************************************* */
+/****************** CHANGE COLOUR **************** */
+/************************************************* */
+/* Modal header */
 ._4eby, ._2c9i, ._4ebz, ._19jt {
   background-color: #282a36 !important;
-  color: #f8f8f2 !important; }
+  color: #0084ff !important; }
 
 /* Edit nicknames: nicknames, names */
 ._3q34, ._3q35 {
@@ -251,13 +269,39 @@ a {
 ._5j5f {
   background-color: #6272a4; }
 
-/* Converstation notifications */
-._374c {
-  color: #f8f8f2; }
-
 /*Edit your nickname input bg */
 ._5iwm ._58al {
-  background: #6272a4 !important; }
+  background: #44475a !important; }
+
+/************************************************* */
+/****************** CHANGE EMOJI ***************** */
+/************************************************* */
+/* Selected emoji background */
+._-lj ._4rlt {
+  background-color: #ff79c6;
+  border-color: #ff79c6; }
+
+/************************************************* */
+/****************** NOTIFICATIONS **************** */
+/************************************************* */
+/* Modal header */
+._19jt {
+  color: #0084ff !important; }
+
+/* Row title */
+._374c {
+  color: #6272a4; }
+
+/* Row text */
+._4ng2 {
+  color: #0084ff; }
+
+/************************************************* */
+/**************** SHARED FILES ******************* */
+/************************************************* */
+/* Links */
+._fy2 {
+  color: #bd93f9 !important; }
 
 /* Sections will be from left to right, top-bottom. */
 /* Container */
@@ -265,9 +309,6 @@ div._4sp8 {
   background-color: #282a36; }
 
 /* Weird classes */
-time._3oh- {
-  color: #f8f8f2 !important; }
-
 ._23ct {
   filter: invert(100%); }
 

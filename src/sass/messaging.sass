@@ -4,14 +4,14 @@
 /******************* HEADER BAR *******************/
 /**************************************************/
 
-/* Active on messenger */
+/* Last active time */
 ._2v6o 
-  color: $foreground !important 
+  color: $comment !important 
 
-/* Friend Name */
+/* Friend or group name */
 ._17w2 
   background-color: $background !important 
-  color: $foreground !important 
+  color: $comment !important 
 
 
 /**************************************************/
@@ -29,15 +29,27 @@
 /**************************************************/
 /****************** MESSAGES **********************/
 /**************************************************/
+
+/* Time & date */
+._497p
+  ._3oh-
+    color: $comment !important
  
 /* Links, website URL in link preview */
 .__6m
   color: $purple !important
 
+/* Friend's name above conversation */
+._6f6l
+  color: $messengerblue !important 
 
 /* Message color */
-span._3oh-  
-  color: $foreground !important 
+._58nk  
+  color: $foreground
+
+.tooltipText, .tooltipContent
+  background-color: $messengerblue !important
+  color: $green !important
  
 /* Persone Name Header */
 div._673w 
@@ -45,7 +57,7 @@ div._673w
  
 /* Message background from friend*/
 ._29_7 ._hh7  
-  background-color: $lightgray
+  background-color: $comment
 
 ._29_7 ._hh7._2f5r
   background: none
@@ -93,7 +105,12 @@ div._673w
 
 /* Friend has called you text */
 img, ._50f7
-  color: $cyan
+  color: $messengerblue
+
+/* Message hover date */
+[aria-describedby]
+  color: $comment !important
+
 
 
 
@@ -104,6 +121,10 @@ img, ._50f7
 /* Enter New Message BG */
 ._4rv3 
   background-color: $background !important 
+
+/* Text */
+._5rp8 ._1mf
+  color: $foreground !important
  
 
 // Write a new message to a person
@@ -119,16 +140,13 @@ img, ._50f7
  
 
 // Icon that use PNGs
-
 ._4rv6  
   filter: invert(100%) 
- 
 
 a._4ce_  
   filter: invert(100%) 
- 
 
 /* Enter New Msg PlaceHolder Text */
-._5rpu 
-  color: $foreground !important 
+._1p1v
+  color: $comment !important
  
