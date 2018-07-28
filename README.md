@@ -26,6 +26,19 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 ## Contributing
 Feel free to help me develop this extension by submitting pull requests! You can view a list of contributors [here](https://github.com/dracula/fb-messenger/graphs/contributors)
 
+### Todo
+- [ ] change colour of placeholder in message input
+- [ ] change colour of settings dropdown
+- [ ] change colour of @mentions in text
+- [ ] change colour of "Contacts" when searching for friends
+- [x] change colour of group names
+- [x] add colour to messenger friends without FB account
+- [ ] change colour of dropdown for marketplace details
+
+THEN:
+
+- [ ] update screenshot in README
+
 ## Questions
 If you have an problems getting something to work please email me at <philippe@partarrieu.me> or file a [Github Issue](https://github.com/dracula/fb-messenger/issues)
 

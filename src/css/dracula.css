@@ -5,6 +5,7 @@
 ._1tqi {
   color: #0084ff; }
 
+/* Setting dropdown */
 /************************************************* */
 /**************** CONVERSATIONS ****************** */
 /************************************************* */
@@ -206,12 +207,14 @@ a._4ce_ {
   background-color: #282a36 !important; }
 
 /* Top section: Name  */
-._3eur span span a {
-  color: #0084ff !important; }
+._3eur span span {
+  color: #0084ff; }
+  ._3eur span span a {
+    color: #0084ff !important; }
 
 /* Group name */
 ._2jnv {
-  color: #f8f8f2 !important; }
+  color: #0084ff !important; }
 
 /* Last active time */
 ._3eus {
@@ -232,6 +235,13 @@ a._4ce_ {
 /* "Facebook Profile" & "Shared Photos" Labels */
 ._3tl0 {
   color: #f8f8f2 !important; }
+
+/* Marketplace details */
+._2b72, ._1li-, ._50f8 {
+  color: #0084ff; }
+
+._43za, ._214v {
+  color: #0084ff; }
 
 /************************************************* */
 /************ SEARCH IN CONVERSATION ************* */
