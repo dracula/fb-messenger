@@ -40,6 +40,11 @@ abbr._1ht7 {
 /************************************************* */
 /************** SEARCH CONVERSATIONS ************* */
 /************************************************* */
+/* Text input in contacts search */
+/* ALSO text input in Search in Conversation */
+._58al {
+  color: #ff79c6 !important; }
+
 /* Search bar placeholder text */
 ._58al::placeholder {
   color: #6272a4 !important; }
@@ -127,8 +132,11 @@ div._673w {
   background: none; }
 
 /* Message background from me */
-._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
-  background-color: #44475a !important; }
+._43by {
+  background-color: #44475a; }
+
+ui9._hh7._s1-._52mr {
+  background-color: #44475a; }
 
 ._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr._2f5r {
   background: none !important; }
@@ -231,10 +239,6 @@ a._4ce_ {
 ._33p7 {
   background-color: #282a36; }
 
-/* Search in conversation */
-._1li_ {
-  color: #f8f8f2 !important; }
-
 /************************************************* */
 /****************** OPTIONS ********************** */
 /************************************************* */
@@ -243,8 +247,8 @@ a._4ce_ {
   color: #6272a4 !important; }
 
 /* Text next to icons */
-._3x6u, ._3szq {
-  color: #bd93f9 !important; }
+._3szq {
+  color: #0084ff !important; }
 
 /************************************************* */
 /***************** EDIT NICKNAMES **************** */
@@ -261,6 +265,8 @@ a._4ce_ {
 ._4eby, ._2c9i, ._4ebz, ._19jt {
   background-color: #282a36 !important;
   color: #0084ff !important; }
+  ._4eby span, ._2c9i span, ._4ebz span, ._19jt span {
+    color: #ff79c6; }
 
 /* Edit nicknames: nicknames, names */
 ._3q34, ._3q35 {
@@ -268,7 +274,7 @@ a._4ce_ {
 
 /* Edit nicknames: input */
 ._5j5f {
-  background-color: #6272a4; }
+  background-color: #44475a; }
 
 /*Edit your nickname input bg */
 ._5iwm ._58al {
@@ -302,7 +308,7 @@ a._4ce_ {
 /************************************************* */
 /* Links */
 ._fy2 {
-  color: #bd93f9 !important; }
+  color: var(--custom-colour); }
 
 /* Sections will be from left to right, top-bottom. */
 /* Container */
