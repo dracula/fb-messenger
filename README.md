@@ -34,9 +34,9 @@ Feel free to help me develop this extension by submitting pull requests! You can
 ### Todo
 
 - [x] change colour of placeholder in message input
-- [ ] change colour of settings dropdown
-- [ ] change colour of @mentions in text
-- [ ] change colour of "Contacts" when searching for friends
+- [x] change colour of settings dropdown
+- [x] change colour of @mentions in text
+- [x] change colour of "Contacts" when searching for friends
 - [x] change colour of group names
 - [x] add colour to messenger friends without FB account
 - [ ] change colour of dropdown for marketplace details
