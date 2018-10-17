@@ -1,3 +1,4 @@
 .sass-cache
 src/css/*.*.map
 node_modules/
+package-lock.json

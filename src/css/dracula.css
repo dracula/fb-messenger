@@ -177,6 +177,15 @@ img, ._50f7 {
 ._ih- {
   background-color: #ff79c6 !important; }
 
+._aou {
+  background: #44475a; }
+
+._2f5n {
+  background-color: #282a36; }
+
+._2f5n ._29ey {
+  color: #ADAEB0; }
+
 /**************************************************/
 /**************** WRITE NEW MESSAGE ***************/
 /**************************************************/
@@ -206,6 +215,9 @@ a._4ce_ {
 ._1p1v {
   color: #6272a4 !important;
   -webkit-text-fill-color: #6272a4 !important; }
+
+._4_j4 .chatAttachmentShelf {
+  border-top: 0px solid !important; }
 
 /* BG */
 ._4_j5 {
@@ -241,12 +253,20 @@ a._4ce_ {
 ._3tl0 {
   color: #f8f8f2 !important; }
 
-/* Marketplace details */
-._2b72, ._1li-, ._50f8 {
-  color: #0084ff; }
+/**************************************************/
+/****************** MARKETPLACE *******************/
+/**************************************************/
+/* Markplace details */
+._50f8 {
+  color: #6272a4 !important; }
 
-._43za, ._214v {
-  color: #0084ff; }
+/* [OFFER] */
+._43za {
+  color: #90949c !important; }
+
+/* ... menu */
+._558b, ._54nc, ._558b, ._54ng {
+  border: solid #282a36 !important; }
 
 /**************************************************/
 /************ SEARCH IN CONVERSATION **************/

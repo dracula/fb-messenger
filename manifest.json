@@ -1,19 +1,23 @@
 {
-  "name": "Dracula Theme for Messenger",
-  "short_name": "Dark Messenger",
-  "description": "Change the appearance of Messenger to look like your favourite theme: dracula",
-  "version": "0.5",
+  "manifest_version": 2,
+  "name": "Dracula Theme for Facebook Messenger",
+  "version": "0.6",
+  "short_name": "Dracula Facebook Messenger",
+  "description": "Change the appearance of Facebook Messenger",
   "author": "Philippe Partarrieu",
   "homepage_url": "https://github.com/dracula/fb-messenger",
-
   "icons": {
     "16":"src/img/dracula16.png",
     "48":"src/img/dracula48.png",
     "128":"src/img/dracula128.png"
   },
   "browser_action": {
-    "default_icon": "src/img/dracula16.png",
-    "default_title": "Dracula Messenger Theme"
+    "default_icon": {
+      "16":"src/img/dracula16.png",
+      "48":"src/img/dracula48.png",
+      "128":"src/img/dracula128.png"
+    },
+    "default_title": "Toggle Dracula Theme"
   },
   "permissions": [
     "activeTab",
@@ -33,6 +37,5 @@
   "background": {
     "persistent": false,
     "scripts": ["src/js/background.js"]
-  },
-  "manifest_version": 2
+  }
 }

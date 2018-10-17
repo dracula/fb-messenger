@@ -104,6 +104,15 @@ img, ._50f7 {
 ._ih- {
   background-color: #ff79c6 !important; }
 
+._aou {
+  background: #44475a; }
+
+._2f5n {
+  background-color: #282a36; }
+
+._2f5n ._29ey {
+  color: #ADAEB0; }
+
 /**************************************************/
 /**************** WRITE NEW MESSAGE ***************/
 /**************************************************/
@@ -133,3 +142,6 @@ a._4ce_ {
 ._1p1v {
   color: #6272a4 !important;
   -webkit-text-fill-color: #6272a4 !important; }
+
+._4_j4 .chatAttachmentShelf {
+  border-top: 0px solid !important; }

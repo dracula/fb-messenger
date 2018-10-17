@@ -2,30 +2,30 @@
 /******************* HEADER BAR *******************/
 /**************************************************/
 /* Messenger Header Bar*/
-._36ic {
-  background-color: #282a36 !important;
-  color: #f8f8f2 !important; }
+._1tqi {
+  color: #0084ff; }
 
+/* Setting dropdown */
 /**************************************************/
 /**************** CONVERSATIONS *******************/
 /**************************************************/
-/* General Conversation Item */
+/* General conversation: item */
 ._1ht1 {
   background-color: #282a36 !important; }
   ._1ht1:hover {
     background-color: #44475a !important; }
 
-/* Current Conversation: Item*/
+/* Current conversation: item*/
 ._1ht2 {
   background-color: #44475a !important; }
 
-/* Current Conversation: Text */
+/* Friend or group name in text */
 ._1htf {
-  color: #f8f8f2 !important; }
+  color: #8be9fd !important; }
 
-/* Current Conversation: Name */
+/* Current conversation: friend or group name */
 ._1ht6 {
-  color: #ADAEB0 !important; }
+  color: #0084ff !important; }
 
 /* Current Conversation  */
 ._17w2 {
@@ -36,14 +36,19 @@
   color: #ddddc0 !important; }
 
 abbr._1ht7 {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /**************************************************/
 /************** SEARCH CONVERSATIONS **************/
 /**************************************************/
+/* Text input in contacts search */
+/* ALSO text input in Search in Conversation */
+._58al {
+  color: #ff79c6 !important; }
+
 /* Search bar placeholder text */
 ._58al::placeholder {
-  color: #f8f8f2 !important; }
+  color: #6272a4 !important; }
 
 /* Friend list: item */
 ._5l37 {
@@ -65,5 +70,3 @@ abbr._1ht7 {
 ._225b {
   background-color: #6272a4;
   color: #f8f8f2; }
-
-/*# sourceMappingURL=conversations.css.map */
