@@ -10,14 +10,14 @@ The extension can be installed in the [Chrome Web Store](https://chrome.google.c
 
 ## Development
 
-To run this project you will need [Sass](http://sass-lang.com/)
+To run this project you will need [Sass](http://sass-lang.com/) which can be installed with `npm i -g node-sass`
 
-My preferred way to use sass is to install [node-sass](https://github.com/sass/node-sass) using `npm install -g node-sass` and then run `node-sass --watch --source-map-contents src/sass --output src/css`
+I recommend using [node-sass](https://github.com/sass/node-sass) which can be run as follows:
+```
+node-sass --watch --source-map-contents src/sass --output src/css
+```
 
-Open up your chrome browser and enter **chrome://extensions** into the address bar, or click on settings -> more tools -> extensions.
-Toggle **developer mode** and click on **load unpacked**.
-
-_Note: Make sure you `watch` the `src/sass/` directory during development. The syntax of the command to do this will depend on which sass you have installed._
+If running chrome open up your browser and enter [chrome://extensions](chrome://extensions) into the address bar. Otherwise click on settings, more tools, extensions. Toggle **developer mode**, click on **load unpacked** and select **fb-messenger**.
 
 ## Team
 
