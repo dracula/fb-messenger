@@ -13,9 +13,12 @@ All instructions can be found at [draculatheme.com/facebook-messenger](https://d
 To run this project you will need [Sass](http://sass-lang.com/) which can be installed with `npm i -g node-sass`
 
 I recommend using [node-sass](https://github.com/sass/node-sass) which can be run as follows:
+
 ```
 node-sass --watch --source-map-contents src/sass --output src/css
 ```
+
+For a better experience working on this project, we recommend that you have the **EditorConfig** extension installed on their [Github](https://github.com/editorconfig) in their editor, you can find the correct extension for your editor .
 
 If running chrome open up your browser and enter [chrome://extensions](chrome://extensions) into the address bar. Otherwise click on settings, more tools, extensions. Toggle **developer mode**, click on **load unpacked** and select **fb-messenger**.
 
